@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>WebSay2</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Say2Servlet</display-name>
+		<servlet-name>Say2Servlet</servlet-name>
+		<servlet-class>com.say2.action.Say2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Say2Servlet</servlet-name>
+		<url-pattern>/Say2Servlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>		
+		<welcome-file>say2.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
